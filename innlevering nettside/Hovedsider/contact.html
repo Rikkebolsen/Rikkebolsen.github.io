@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="design/LayoutNY3.css">
+    </head>
+    <style>
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgba(210, 210, 210, 0.76);
+}
+    </style>
+    <body>
+        <div id="Meny1">
+    
+    </div>
+    <div id="Meny2">
+            <ul>
+                    <li><a href="NewYork.html">Home</a></li>
+                    <li><a href="Placestovisit.html">Places to visit</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Map.html">Map</a></li>
+                  </ul>
+    </div>
+    <div id="Meny3">
+    </div>
+    <div id="Tittel">
+    </div>
+    <div id="Innhold">
+        <h1> Contact </h1>
+        <p>If you have any questions about New York, please contact us.</p>
+        <p> We are here to help you to get most of of your trip to the magical city, New York.</p>
+        <p> 
+            <form>
+                <br><label> First name <input type="text"> </label>
+                  <br><label> Last name <input type="text"> </label>              
+                  <br><label> E-mail <input type="text"> </label>
+                  <br><label> Message <input type="text"> </label>
+                  <br><button id="Send" type="button">Send</button>
+                </form>
+             
+        </p>
+        <p>
+        <table align="center">
+            <caption>Contact information</caption>
+            <thead>
+            <tr>
+            <th>Number</th>
+            <th>E-mail</th>
+            <th>Adress</th>
+            </tr>
+            </thead>
+            <tr>
+            <td>40003321</td>
+            <td>NewYorkinfo@mail.com</td>
+            <td>adress</td>
+            </tr>
+            </table>
+        </p>
+        <p>
+            <button id="Complain" type:"button"> Send a complain</button> </p>
+        <p> 
+            <div id=box> <img src="bilder/heart.pn" autoplay> </div>
+        </p>
+    </div>
+<div id="Bunn">
+<p> Designet av Rikke Olsen </p>
+</div>
+<script>
+    var btn = document.getElementById("Send");
+    btn.addEventListener("click", lagreData);
+    function lagreData() {
+        alert("Your message has been sent.");
+    }
+    </script>
+    </body>

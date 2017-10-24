@@ -1,0 +1,142 @@
+#Meny1 {
+    background: rgba(165, 231, 255, 0.81);
+    position: absolute;
+    left: 0;
+    bottom: 40%;
+    width: 100%;
+    height: 13%;
+    }
+    #Meny2 {
+        background: rgba(194, 194, 194, 0.76);
+        position: absolute;
+        left: 0;
+        bottom: 42%;
+        width: 100%;
+        height: 9%;
+        }
+    #Tittel {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 45%;
+    background: url("../bilder/NYC.png");
+    background-color: rgba(142, 216, 255, 0.95);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    text-shadow: 3px 3px rgba(250,250,250,0.7);
+    text-align: center;
+    font-size: 1.5em;
+    /*mix-blend-mode: difference;*/
+    }
+#Innhold1 {
+    position: absolute;
+    left: 1%;
+    bottom: -32%;
+    width: 80%;
+    height: 70%;
+    background: rgba(194, 194, 194, 0.76);
+}
+    #Innhold {
+    position: absolute;
+    left: 1%;
+    bottom: -32%;
+    width: 80%;
+    height: 70%;
+    background: rgba(194, 194, 194, 0.76);
+    text-align: center;
+    font-size: 1em;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    }
+    #Meny3 {
+    background: rgb(163, 163, 163);
+    position: absolute;
+    left: 80%;
+    bottom: -32%;
+    width: 19%;
+    height: 70%;
+    text-align: center;
+    font-size: 1em;
+    }
+    #Bunn {
+    position: absolute;
+    left: 0;
+    bottom: -350px;
+    width: 100%;
+    height: 15%;
+    background:rgba(142, 216, 255, 0.14);
+    text-align: center;
+    }
+     
+    li a:hover {
+    color: #000000;
+    background: thistle;
+    box-shadow: 3px 3px rgba(142, 216, 255, 0.82);;
+    }
+     
+    li a:visited {
+    color: #FFFFFF;
+    }
+    table{
+        border: solid 3px gray;
+        border-collapse: collapse;
+        text-align: center;
+    }
+    
+     th,td {
+        padding-left:6px;
+        padding-right: 6px;
+    }
+     th {
+        background: rgba(156, 156, 156, 0.83);
+    }
+    
+    tr:nth-child(odd) {
+        background: rgba(255, 255, 255, 0.49);
+    }
+    
+    td:nth-child(odd) {
+        background: rgba(155, 155, 155, 0.20);
+    }
+button {
+    position: relative;
+    top: 0;
+    left: 0;
+    color: #FFFFFF;
+    background-color: #A2A2A2;
+    border: 3px solid white;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgba(177, 177, 177, 0.09);
+    outline: none;
+} 
+button:hover {
+background-color: #ADEEF9;
+color: rgba(157, 157, 157, 0.86);
+animation: stikkAv 100ms;
+animation-fill-mode: forwards;
+}
+button:active {
+    transform: translate(3px,3px);
+    box-shadow: none;
+}
+
+@keyframes stikkAv {
+    0% {top: 0; left: 0;}
+    100% {top: 500px; left: 500px;}
+}
+#Innhold div {
+width: 16em;
+height: 16em;
+position: absolute;
+left: 100px;
+bottom: 200px;
+transition: 1s;
+}
+#Innhold div:hover {
+    width: 15em;
+    height: 15em;
+}

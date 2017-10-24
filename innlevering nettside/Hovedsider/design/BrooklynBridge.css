@@ -1,0 +1,70 @@
+#Meny1 {
+    background: rgba(165, 231, 255, 0.81);
+    position: absolute;
+    left: 0;
+    bottom: 40%;
+    width: 100%;
+    height: 13%;
+    }
+    #Meny2 {
+        background: rgba(194, 194, 194, 0.76);
+        position: absolute;
+        left: 0;
+        bottom: 42%;
+        width: 100%;
+        height: 9%;
+        }
+    #Tittel {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 45%;
+    background: url("../bilder/NYC.png");
+    background-color: rgba(142, 216, 255, 0.95);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    text-shadow: 3px 3px rgba(250,250,250,0.7);
+    text-align: center;
+    font-size: 1.5em;
+    /*mix-blend-mode: difference;*/
+    }
+    #Innhold {
+    position: absolute;
+    left: 1%;
+    bottom: -32%;
+    width: 80%;
+    height: 70%;
+    background: rgba(194, 194, 194, 0.76);
+    text-align: center;
+    }
+    #Meny3 {
+        background: rgb(163, 163, 163);
+        position: absolute;
+        left: 80%;
+        bottom: -32%;
+        width: 19%;
+        height: 70%;
+        }
+    #Bunn {
+    position: absolute;
+    left: 0;
+    bottom: -350px;
+    width: 100%;
+    height: 15%;
+    background:rgba(142, 216, 255, 0.14);
+    text-align: center;
+
+    }
+     
+    li a:hover {
+    color: #000000;
+    background: thistle;
+    box-shadow: 3px 3px rgba(142, 216, 255, 0.82);;
+    }
+     
+    li a:visited {
+    color: #FFFFFF;
+    }
+    

@@ -1,0 +1,17 @@
+#Snoopy {
+    position:  absolute;
+    left: 0;
+    top: 0;
+    width: 75px;
+    height: 90px;
+    background: url("../bilder/statueofliberty.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: gaaTur 6s linear infinite;
+   
+}
+
+@keyframes gaaTur {
+    0% { top:82%; left: 0%; transform: rotate(0deg);}
+    95% { top:82%; left: 90%; transform: rotate(0deg);}
+}
