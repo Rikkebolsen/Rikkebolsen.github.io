@@ -1,0 +1,93 @@
+#header {
+position: absolute;
+top: 0;
+width: 100%;
+height: 20%;
+background:#91BEB9;
+text-align: center;
+}
+#header h1 {
+    text-shadow: 2px 2px rgba(26, 26, 26, 0.58);
+    color: white;
+    font-size: 3em;
+}
+#meny{
+    position: absolute;
+    width: 100%;
+    top: 22%
+}
+#meny ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #393434;
+}
+
+#meny li {
+    float: left;
+}
+
+#meny li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #938686;
+}
+#innhold {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    height: 83%;
+    background:#D2D2D2;
+    text-align: center;
+}
+#innhold .tilbud1 {
+    position: absolute;
+    top: 16%;
+    width: 30%;
+    height: 54%;
+    background:#FFFFFF;
+    text-align: center;
+    left: 3%;
+    border: 3px solid black;
+}
+#innhold .tilbud2 {
+    position: absolute;
+    top: 16%;
+    width: 30%;
+    height: 54%;
+    background:#FFFFFF;
+    text-align: center;
+    left: 35%;
+    border: 3px solid black;
+}
+#innhold .tilbud3 {
+    position: absolute;
+    top: 16%;
+    width: 30%;
+    height: 54%;
+    background:#FFFFFF;
+    text-align: center;
+    left: 67%;
+    border: 3px solid black;
+}
+bunn {
+
+}
+#skjema {
+    position: absolute;
+    bottom: -14%;
+    width: 41%;
+    height: 22%;
+    background:#FFFFFF;
+    text-align: center;
+    left: 30%;
+    border: 3px solid black;
+}
