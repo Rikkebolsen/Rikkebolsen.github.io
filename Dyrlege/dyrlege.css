@@ -5,7 +5,7 @@
 
 
 header {
-    color:green;
+    color:#000000;
     font-size: 1.2em;
     padding: var(--fyll);
     padding-bottom: 20px;
@@ -15,12 +15,15 @@ article {
     font-size: 1.1em;
     padding:var(--fyll);
 }
-#liste {
-    width: 90vw;
+#dyr {
+    width: 45vw;
     min-height: 50vh;
-    border: 2px solid red;
+    border: 3px double #808080;
 }
 .kunde {
     background-color: whitesmoke;
 
+}
+li:nth-child(2) {
+    background: rgba(142, 140, 140, 0.73);
 }

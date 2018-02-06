@@ -1,0 +1,53 @@
+{
+    "ski": {
+        "randone": {
+            "K2-33": {
+                "produsent": "K2",
+                "navn": "K2 Wayback",
+                "pris": 5600,
+                "bilde": "../k2180.jpeg"
+            },
+            "Falktind": {
+                "produsent": "Aasnes",
+                "navn": "Falktind",
+                "pris": 3300,
+                "bilde": "../aasnes-falktind.jpg"
+            },
+            "slalom": {
+                "K2-33": {
+                    "produsent": "Head",
+                    "navn": "ABSOLUT JOY SLR ALPINSKI DAME",
+                    "pris": 4499,
+                    "bilde": "../slalom.png"
+                },
+                "Turlangrenn": {
+                    "K2-33": {
+                        "produsent": "FISCHER",
+                        "navn": "Superlite Crown",
+                        "pris": 2499,
+                        "bilde": "../langrenn.jpg"
+                    },
+                    "Telemark": {
+                        "K2-33": {
+                            "produsent": "Völkl",
+                            "navn": "Völkl Aura",
+                            "pris": 6999,
+                            "bilde": "../telemark.jpeg"
+                        },
+                        "truger": {
+                            "fimbulvetr301": {
+                                "produsent": "Fimbulvetr",
+                                "navn": "Fimbulvetr Tanker truger",
+                                "pris": 2800,
+                                "bilde": "../fimbulvetr-301.2.b_fimbulvetr_tankr_green_2.jpg"
+                            }
+                        },
+                        "staver": {
+                            "Horgi120": {
+                                "produsent": "Aasnes",
+                                "navn": "Horgi teleskop",
+                                "pris": 550,
+                                "bilde": "../horgi.jpg"
+                            }
+                        }
+                    }
