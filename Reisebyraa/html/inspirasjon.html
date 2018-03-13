@@ -1,0 +1,152 @@
+<html lang="en">
+        
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="../css/inspirasjon.css">
+            <link rel="stylesheet" href="../css/travel.css">
+        
+            <title>Inspirasjon</title>
+        </head>
+        
+        <body>
+            <div id="header">
+                    <img src="../bilder/travel.jpg" alt="Header" width="100%" height="100%">
+                <h1>travel</h1>
+            </div>
+            <div id="meny">
+                <div class="navbar">
+                    <a href="../index.html">Hjem</a>
+                    <a href="../html/reisemaal.html">Reisemål</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Reiseutvalg 
+                                <i class="fa fa-caret-down"></i>
+                              </button>
+                        <div class="dropdown-content">
+                            <a href="../html/allinclusive.html">All inclusive</a>
+                            <a href="../html/sommer.html">Ferie i sommer</a>
+                            <a href="../html/vinter.html">Ferie i vinter</a>
+                            <a href="../html/langweekend.html">Langweekend</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Pakketilbud 
+                                      <i class="fa fa-caret-down"></i>
+                                    </button>
+                        <div class="dropdown-content">
+                            <a href="../html/hotellfly.html">Hotell + fly</a>
+                            <a href="../html/bryllupsreise.html">Bryllupsreise</a>
+                            <a href=../ "html/backpacking.html">Backpacking</a>
+                        </div>
+                    </div>
+                    <a href="../html/inspirasjon.html">Inspirasjon</a>
+                </div>
+            </div>
+            <div id="main">
+                    <div class="slideshow-container">
+                            
+                            <div class="mySlides fade">
+                              <div class="numbertext">1 / 10</div>
+                              <img src="../bilder/inspo1.jpg" style="width:100%">
+                              <div class="text">Caption Text</div>
+                            </div>
+                            
+                            <div class="mySlides fade">
+                              <div class="numbertext">2 / 10</div>
+                              <img src="../bilder/inspo2.jpg" style="width:100%">
+                              <div class="text">Caption Two</div>
+                            </div>
+                            
+                            <div class="mySlides fade">
+                              <div class="numbertext">3 / 10</div>
+                              <img src="../bilder/inspo3.jpg" style="width:100%">
+                              <div class="text">Caption Three</div>
+                            </div>
+                            <div class="mySlides fade">
+                                    <div class="numbertext">4 / 10</div>
+                                    <img src="../bilder/inspo4.jpg" style="width:100%">
+                                    <div class="text">Caption Three</div>
+                                  </div>
+                                  <div class="mySlides fade">
+                                        <div class="numbertext">5 / 10</div>
+                                        <img src="../bilder/inspo5.jpg" style="width:100%">
+                                        <div class="text">Caption Text</div>
+                                      </div>
+                                      <div class="mySlides fade">
+                                            <div class="numbertext">6 / 10</div>
+                                            <img src="../bilder/inspo6.jpg" style="width:100%">
+                                            <div class="text">Caption Text</div>
+                                          </div>
+                                          <div class="mySlides fade">
+                                                <div class="numbertext">7 / 10</div>
+                                                <img src="../bilder/inspo7.jpeg" style="width:100%">
+                                                <div class="text">Caption Text</div>
+                                              </div>
+                                              <div class="mySlides fade">
+                                                    <div class="numbertext">8 / 10</div>
+                                                    <img src="../bilder/inspo8.jpg" style="width:100%">
+                                                    <div class="text">Caption Text</div>
+                                                  </div>
+                                                  <div class="mySlides fade">
+                                                        <div class="numbertext">9 / 10</div>
+                                                        <img src="../bilder/inspo9.jpeg" style="width:100%">
+                                                        <div class="text">Caption Text</div>
+                                                      </div>
+                                                      <div class="mySlides fade">
+                                                            <div class="numbertext">10 / 10</div>
+                                                            <img src="../bilder/inspo10.jpg" style="width:100%">
+                                                            <div class="text">Caption Text</div>
+                                                          </div>
+                            
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            
+                            </div>
+                            <br>
+                            
+                            <div style="text-align:center">
+                              <span class="dot" onclick="currentSlide(1)"></span> 
+                              <span class="dot" onclick="currentSlide(2)"></span> 
+                              <span class="dot" onclick="currentSlide(3)"></span> 
+                              <span class="dot" onclick="currentSlide(4)"></span>
+                              <span class="dot" onclick="currentSlide(5)"></span> 
+                              <span class="dot" onclick="currentSlide(6)"></span> 
+                              <span class="dot" onclick="currentSlide(7)"></span> 
+                              <span class="dot" onclick="currentSlide(8)"></span>
+                              <span class="dot" onclick="currentSlide(9)"></span> 
+                              <span class="dot" onclick="currentSlide(10)"></span>
+                            </div>
+                            
+                            <script>
+                                    var slideIndex = 1;
+                                    showSlides(slideIndex);
+                                    
+                                    function plusSlides(n) {
+                                      showSlides(slideIndex += n);
+                                    }
+                                    
+                                    function currentSlide(n) {
+                                      showSlides(slideIndex = n);
+                                    }
+                                    
+                                    function showSlides(n) {
+                                      var i;
+                                      var slides = document.getElementsByClassName("mySlides");
+                                      var dots = document.getElementsByClassName("dot");
+                                      if (n > slides.length) {slideIndex = 1}    
+                                      if (n < 1) {slideIndex = slides.length}
+                                      for (i = 0; i < slides.length; i++) {
+                                          slides[i].style.display = "none";  
+                                      }
+                                      for (i = 0; i < dots.length; i++) {
+                                          dots[i].className = dots[i].className.replace(" active", "");
+                                      }
+                                      slides[slideIndex-1].style.display = "block";  
+                                      dots[slideIndex-1].className += " active";
+                                    }
+                                    </script>
+        </body>
+        
+        </html>
