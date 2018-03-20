@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/sommer.css">
-
+    <link rel="shortcut icon" href="../bilder/favicon.ico" type="image/x-icon" />
     <title>Ferie i sommer</title>
 </head>
 
@@ -43,20 +43,20 @@
     </div>
     <div id="inn">
             <div id=innhold>
-                    <h2> Våre tilbud </h2>
+                    <h2> Sommerferie tilbud </h2>
                     <div class=tilbud1>
-                    <h3> Hotell + fly </h3>
+                        <a href="../html/hotellfly.html"><h3> Hotell + fly </h3></a>
                     <img src="../bilder/flyhotell.png" alt="BILDE" width="340" height="190" title="" >
                     
                     </div>
                     <div class=tilbud2>
-                            <h3>Bryllupsreise</h3>
+                        <a href="../html/bryllupsreise.html"><h3>Bryllupsreise</h3></a> 
                             <img src="../bilder/bryllup.jpg" alt="BILDE" width="340" height="190" title="" >
                             
                             
                         </div>
                         <div class=tilbud3>
-                                <h3> Backpacking </h3>
+                            <a href="../html/backpacking.html"><h3>Backpacking</h3></a>
                                 <img src="../bilder/back.jpg" alt="BILDE" width="340" height="190" title="" >
                                 
                             </div>
@@ -82,12 +82,21 @@
                                                        <option>Mastercard</option>
                                                        <option>Faktura</option>
                                                    </select>
-                                        <br><button type="button">Bestill </button>
+                                        <br><button onclick="myFunction()">Send inn</button>
                                         
                                         
                                         </form>
-                        </div>               
+    
+                                    </div> 
+                                    <div class="ikon">
+                                        <img src="../bilder/mail.svg" alt="Icon" height="50px" width="50px">
+                                        </div>              
     </div>
+    <script>
+        function myFunction() {
+            alert("Din forespørsel se sendt inn");
+        }
+        </script>
         <div id="bunn">
                   
              

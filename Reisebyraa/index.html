@@ -5,8 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/travel.css">
+  <link rel="stylesheet" href="css/ani.css">
   <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
   <script src="reise.js"></script>
+  <link rel="shortcut icon" href="bilder/favicon.ico" type="image/x-icon" />
+  
   <title>Reisebyrå</title>
 </head>
 
@@ -45,6 +48,16 @@
 
   </div>
   <div id="main">
+      <div id="bilder">
+      <div class="bilde"></div>
+      <div class="bilde"></div>
+      <div class="bilde"></div>
+      <div class="bilde"></div>
+      <div class="bilde"></div>
+      <div class="bilde"></div>
+
+  </div>
+      <div class="box">
     <div>
       <h4>Legg til bruker</h4>
       <form>
@@ -77,19 +90,27 @@
 
           <div>
             <div>
-            <button type="button" id="lagrebruker">
-                        Legg til bruker</button>
+                <button onclick="myFunction()"id="lagrebruker">Legg til bruker</button>
+                
+            
           </div>
           <div></div>
         </div>
       </form>
     </div>
   </div>
+  <div id="fly">
+  </div>
+  </div>
   <div id="bottom">
-
+<br> Vi i Vacay er veldig opptatt av datasikkerhet, slik at vi beskytter informasjonen til kundene våre. 
+<br> Vi gjør vårt beste for å unngå svindel og misbruk av informasjon.
+<br> Vacay står på for at alle kundene skal være fornøyd med sin opplevelse av reisene og kundekonsulentene.
   </div>
   <script>
     setup();
+    function myFunction() {
+    alert("Takk for at du meldte deg inn hos oss!");}
   </script>
 </body>
 
